@@ -1,0 +1,46 @@
+header {
+  font-size: 2em;
+  font-family: "effra", effra, sans-serif;
+  font-weight: lighter;
+  font-display: block;
+  position: fixed;
+}
+
+h1 {
+  font-family: "bryant", sans-serif;
+  font-weight: lighter;
+  padding-top: 60px;
+  margin-left: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: gray;
+  text-align: center;
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  padding-top: 5px;
+}
+
+body {
+  background-image: url("../img/tropical-trees.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-color: white;
+}
